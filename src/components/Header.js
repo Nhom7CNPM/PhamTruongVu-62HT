@@ -6,6 +6,7 @@ import slide3 from "./img/slide3.png";
 import Tin1 from "./img/BKAI-NAVER.png";
 import Tin2 from "./img/05-Hoi-truong.png";
 import Tin3 from "./img/DaiHoi.png";
+
 function Header() {
   return (
     <div>
@@ -47,14 +48,14 @@ function Header() {
           </div>
         </div>
       </div>
-
-      <div class="narbar" style={{ 'display': 'flex', 'margin-left': '115px', }}>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+          <div class="narbar" style={{ 'display': 'flex', 'margin-left': '115px', }}>
         {/* 1 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Giới thiệu
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
             <li><a class="dropdown-item" href="#">Thông tin chung</a></li>
             <li><hr class="dropdown-divider" /></li>
             <li><a class="dropdown-item" href="#">Triết lý giáo dục</a></li>
@@ -75,7 +76,7 @@ function Header() {
         </li>
         {/* 2 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Khoa–Trung tâm
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -89,7 +90,7 @@ function Header() {
         </li>
         {/* 3 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Đào tạo
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -110,7 +111,7 @@ function Header() {
 
         {/* 4 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Nghiên cứu
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -128,7 +129,7 @@ function Header() {
 
         {/* 5 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Tuyển sinh
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -147,7 +148,7 @@ function Header() {
 
         {/* 6 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Sinh viên
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -161,7 +162,7 @@ function Header() {
 
         {/* 7 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Hợp tác Đối ngoại
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -175,7 +176,7 @@ function Header() {
 
         {/* 8 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Cựu Sinh viên
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -187,7 +188,7 @@ function Header() {
 
         {/* 9 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Tin tức–Sự kiện
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -203,7 +204,7 @@ function Header() {
 
         {/* 10 */}
         <li class="nav-item dropdown" style={{ 'list-style': 'none' }}>
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'black' }}>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ 'color': 'white' }}>
             Tuyển dụng
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -213,6 +214,7 @@ function Header() {
           </ul>
         </li>
       </div>
+      </nav>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -230,6 +232,7 @@ function Header() {
             <img src={slide3} class="d-block w-100" alt="anh 3"></img>
           </div>
         </div>
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -239,6 +242,9 @@ function Header() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+          
+      
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -311,7 +317,7 @@ function Header() {
       <div class="container-fluid " img-bg="https://www.bing.com/th?id=OIP.-5EJDfQH9oVsiXBHrzqLlgHaEK&w=207&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2">
         <span class="badge badge-default">Label</span>
         <h3 class="text-center">
-        HỢP TÁC ĐỐI NGOẠI
+          HỢP TÁC ĐỐI NGOẠI
         </h3>
         <h6 class="text-center" >Trường CNTT&TT luôn coi trọng các hoạt động hợp tác quốc tế và hợp tác doanh nghiệp để nâng cao chất lượng các hoạt giảng dạy, nghiên cứu và chuyển giao công nghệ.</h6>
         <div class="row">
@@ -346,78 +352,82 @@ function Header() {
       </div>
 
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="row">
-				<div class="col-md-3 d-flex flex-column">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/05/nguyentuquang.jpg" />
-					<h3>
-						Nguyen Tu Quang
-					</h3>
-					<p> Viet gi do
-          </p>
-				</div>
-				<div class="col-md-3 d-flex flex-column">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/04/VuongQuangKhai-1225-1419300015.jpg" />
-					<h3>
-						Vuong Quang Khai
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-				<div class="col-md-3 d-flex flex-column ">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/205feec3d18738d96196.jpg" />
-					<h3>
-						Hoang Viet Anh
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-				<div class="col-md-3 d-flex flex-column">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/Lu-Thanh-Long.jpg" />
-					<h3>Lu Thanh Long
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-			</div>
-    </div>
-    <div class="carousel-item">
-      <div class="row">
-      <div class="col-md-3 d-flex flex-column ">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/205feec3d18738d96196.jpg" />
-					<h3>
-						Hoang Viet Anh
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-				<div class="col-md-3 d-flex flex-column">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/Lu-Thanh-Long.jpg" />
-					<h3>Lu Thanh Long
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-				<div class="col-md-3 d-flex flex-column">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/06/nam-2014-nguyen-ha-dong-va-flappy-bird-trong-hanh-trinh-mang-den-nhung-dieu-ky-dieu-.jpg" />
-					<h3>Nguyen Ha Dong
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-				<div class="col-md-3 d-flex flex-column">
-					<img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/05/hungtran-400x250.jpg" />
-					<h3>Hung Tran
-					</h3>
-					<p>Viet gi do</p>
-				</div>
-			</div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+      <span class="badge badge-default">Label</span>
+        <h5 class = "text-center">CỰU SINH VIÊN
+        </h5>
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3 d-flex flex-column">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/05/nguyentuquang.jpg" />
+                <h3>
+                  Nguyen Tu Quang
+                </h3>
+                <p> Viet gi do
+                </p>
+              </div>
+              <div class="col-md-3 d-flex flex-column">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/04/VuongQuangKhai-1225-1419300015.jpg" />
+                <h3>
+                  Vuong Quang Khai
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+              <div class="col-md-3 d-flex flex-column ">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/205feec3d18738d96196.jpg" />
+                <h3>
+                  Hoang Viet Anh
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+              <div class="col-md-3 d-flex flex-column">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/Lu-Thanh-Long.jpg" />
+                <h3>Lu Thanh Long
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 d-flex flex-column ">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/205feec3d18738d96196.jpg" />
+                <h3>
+                  Hoang Viet Anh
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+              <div class="col-md-3 d-flex flex-column">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/Lu-Thanh-Long.jpg" />
+                <h3>Lu Thanh Long
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+              <div class="col-md-3 d-flex flex-column">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/06/nam-2014-nguyen-ha-dong-va-flappy-bird-trong-hanh-trinh-mang-den-nhung-dieu-ky-dieu-.jpg" />
+                <h3>Nguyen Ha Dong
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+              <div class="col-md-3 d-flex flex-column">
+                <img alt="Bootstrap Image Preview" src="https://soict.hust.edu.vn/wp-content/uploads/2019/05/hungtran-400x250.jpg" />
+                <h3>Hung Tran
+                </h3>
+                <p>Viet gi do</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div >
   )
 }
